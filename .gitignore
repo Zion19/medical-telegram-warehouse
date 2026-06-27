@@ -1,0 +1,17 @@
+# Secrets
+.env
+*.session
+*.session-journal
+
+# Byte-compiled / optimized
+__pycache__/
+*.pyc
+
+# Local Data Lake & Logs
+data/
+logs/
+
+# dbt
+business_warehouse/target/
+business_warehouse/dbt_packages/
+business_warehouse/logs/
